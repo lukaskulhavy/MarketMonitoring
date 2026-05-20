@@ -76,6 +76,20 @@
 
 ---
 
+## Platform Landscape: Top 5 AI Agent Platforms
+
+| Platform | Best for | Pricing (2026) | EU Data Residency | Key Strength | Key Risk |
+|---|---|---|---|---|---|
+| **Microsoft Copilot Studio** | M365-centric organizations; employee-facing agents (IT, HR, helpdesk) | Credit packs — 25,000 credits for ~$200/month; consumption-based [23] | Yes — EU data boundary available | 160K+ orgs, 400K+ custom agents deployed; deepest M365/Teams/SharePoint integration | Consumption pricing scales sharply at volume; limited outside Microsoft ecosystem |
+| **Salesforce Agentforce** | Customer-facing automation for CRM-heavy FS firms; sales, service, onboarding | Flex Credits — $0.10 per agent action [23] | Yes — EU hosting available | Natively operates on live Salesforce data; Einstein Trust Layer for data masking; omnichannel handoff; 29K deals closed, $800M ARR [23] | Only valuable if Salesforce is already the CRM; pricing adds up fast in high-volume contact centres |
+| **Google Gemini Enterprise Agent Platform** | Developer-led, custom agent architectures; Workspace-integrated orgs | API + platform consumption; Managed Agents at $0.08/session hour (via Anthropic parity pricing) [24] | Yes — EU Google Cloud regions | Antigravity 2.0 (announced I/O May 19): CLI + SDK + managed execution + evaluation suite with synthetic testing [16] | Launched days ago — enterprise stability and pricing unproven at scale; strong lock-in to Google Cloud |
+| **Anthropic Claude Managed Agents** | Complex reasoning tasks; compliance-sensitive use cases requiring explainability | $0.08/session hour managed runtime; Claude Opus 4.7 at $5/$25 per M tokens [24] | Yes — EU hosting via AWS/GCP partnerships | Highest benchmark scores on complex reasoning and instruction-following; strong EU AI Act-aligned transparency design | Fewer pre-built enterprise connectors than Microsoft or Salesforce; requires more custom integration work |
+| **SAP Joule Agents** | SAP-centric European enterprises — finance, HR, supply chain, procurement | Included in SAP Business AI licensing; GA expected Q3 2026 [24] | Yes — SAP data centres including EU | 50+ Joule Assistants orchestrating 200+ agents natively across SAP ERP, S/4HANA, SuccessFactors; MCP + A2A protocol support [24] | Locked to SAP ecosystem; non-SAP data requires additional integration; still pre-GA for full agent capabilities |
+
+**How to read this for FS clients:** Copilot Studio and Agentforce have the fastest time to value (4–6 weeks for pre-built use cases) but create significant vendor lock-in. Google and Anthropic offer more architectural flexibility at the cost of more integration work. SAP Joule is the default choice for any client running core banking or finance operations on SAP — and is the most EU-data-sovereign option for that stack. [23][24]
+
+---
+
 ## Implications for Financial Services Consulting
 
 - **The August 2, 2026 EU AI Act deadline is 10 weeks away** — clients with agents in credit scoring, lending, AML, or customer interaction have immediate compliance obligations; this is a live fire drill, not future planning [17][18]
@@ -166,3 +180,5 @@
 [20] AI agents are scaling faster than their guardrails — Deloitte — https://www.deloitte.com/us/en/insights/topics/emerging-technologies/ai-agents-scaling-faster.html — Accessed: 2026-05-20
 [21] Agentic AI and the future of work in financial services — Accenture — https://bankingblog.accenture.com/agentic-ai-future-of-work — Accessed: 2026-05-20
 [22] AI in banking and financial services: Trends for 2026 — Finastra — https://www.finastra.com/viewpoints/articles/future-of-ai-in-financial-services-2026 — Accessed: 2026-05-20
+[23] Best Enterprise Level Agentic AI Platforms for 2026 — MarkTechPost — https://www.marktechpost.com/2026/05/19/best-enterprise-level-agentic-ai-platforms-for-2026/ — Accessed: 2026-05-20
+[24] AI Agent Platforms: May 2026 Updates — TURION.AI — https://turion.ai/blog/ai-agent-platform-updates-may-2026/ — Accessed: 2026-05-20
